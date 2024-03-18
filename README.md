@@ -1,6 +1,6 @@
-<h1>Hi!
-<br><br>
-It`s a Simple Restaurant`s Menu fullstack applitaction.</h1>
+**Hi!**
+<br><br><br>
+It's a Simple Restaurant's Menu fullstack applitaction.
 <br><br>
 There are 2 folders:<br><br>
 <b>restaurant</b> - client folder (JS/React)<br>
@@ -8,4 +8,6 @@ There are 2 folders:<br><br>
 
 Don`t forget install required libraries to restaurant_server folder:<br>
 
-```pip install -r requirements.txt```
+```python 
+pip install -r requirements.txt
+```
