@@ -1,0 +1,42 @@
+{
+  "categories": [
+    {"key_name": "starters", "name": "Starters", "image": "http://localhost:3001/assets/images/preview_starter.jpg"},
+    {"key_name": "vegetables", "name": "Salads", "image": "http://localhost:3001/assets/images/preview_salad.jpg"},
+    {"key_name": "main_courses", "name": "Main Courses", "image": "http://localhost:3001/assets/images/preview_main.jpg"},
+    {"key_name": "desserts", "name": "Desserts", "image": "http://localhost:3001/assets/images/preview_dessert.jpg"},
+    {"key_name": "drinks", "name": "Drinks", "image": "http://localhost:3001/assets/images/preview_drink.jpg"}
+],
+
+  "menu" : {
+    "starters": [
+      {"id": 1, "name": "Soup Broth", "description": "Classical beetroot soup cooked in meat broth with vegetables (onions, carrots, cabbage, potatoes) and beef.", "price": 200, "capture": "http://localhost:3001/assets/images/starters/soup.jpeg"},
+      {"id": 2, "name": "Snacks", "description": "Start your meal with ligth snacks.", "price": 200, "capture": "http://localhost:3001/assets/images/starters/snacks.jpg"}
+    ],
+    "salads": [
+      {"id": 1, "name": "Vegetable Slicing", "description": "Fresh sliced vegetables on the big plate with salt.", "price": 60, "capture": "http://localhost:3001/assets/images/salads/vegetables.jpg"},
+      {"id": 2, "name": "Potatoes", "description": "A common potato dish that consists of French fries (fresh cut or frozen) topped with gravy, ground beef, and green peas.", "price": 50, "capture": "http://localhost:3001/assets/images/salads/potatoes.jpg"},
+      {"id": 3, "name": "Mushrooms", "description": "Finely chopped (minced) mixture of mushrooms or mushroom stems, onions, shallots, and herbs sautéed in butter, and reduced to a paste.", "price": 70, "capture": "http://localhost:3001/assets/images/salads/mushrooms.jpg"},
+      {"id": 4, "name": "Greek Salad", "description": "Made with wedges of tomatoes, cucumber, green bell peppers, red onion, sliced or cubed feta cheese, and kalamata olives, typically seasoned with salt, black pepper and dried oregano, and dressed with olive oil and red wine vinegar.", "price": 100, "capture": "http://localhost:3001/assets/images/salads/greek.jpg"}
+    ],
+    "main_courses": [
+      {"id": 1, "name": "Beef-steak", "description": "Grilled, pan-fried, or broiled.", "price": 300, "capture": "http://localhost:3001/assets/images/main_courses/beefSteak.jpg"},
+      {"id": 2, "name": "Chicken", "description": "Served with zucchini, grape tomatoes, and onions.", "price": 250, "capture": "http://localhost:3001/assets/images/main_courses/chicken.jpg"},
+      {"id": 3, "name": "Fried Fish", "description": "Served with tartar sauce, lemon wedges, and French fries, coleslaw, and rye bread", "price": 150, "capture": "http://localhost:3001/assets/images/main_courses/fish.jpg"},
+      {"id": 4, "name": "Cheese Omelette", "description": "Filled with shredded cheese and fresh herbs", "price": 180, "capture": "http://localhost:3001/assets/images/main_courses/omelette.jpg"}
+    ],
+    "desserts": [
+      {"id": 1, "name": "Ice-cream", "description": "Chocolate, Vanilla, Fruit.", "price": 80, "capture": "http://localhost:3001/assets/images/desserts/icecream.jpg"},
+      {"id": 2, "name": "Apple Pie", "description": "Served with whipped cream, ice cream, custard or cheddar cheese.", "price": 80, "capture": "http://localhost:3001/assets/images/desserts/applepie.jpg"},
+      {"id": 3, "name": "Fruit Salad", "description": "Any various kinds of fruit, served in a liquid, juices or a syrup.", "price": 30, "capture": "http://localhost:3001/assets/images/desserts/fruitsalad.jpg"},
+      {"id": 4, "name": "Cheese & Biscuits", "description": "Take a minute for a while and fill full sweet.", "price": 100, "capture": "http://localhost:3001/assets/images/desserts/cake.jpg"}
+    ],
+    "drinks": [
+      {"id": 1, "name": "Coffee", "description": "Americano, Latte, Kopi Luwak", "price": 50, "capture": "http://localhost:3001/assets/images/drinks/coffee.jpg"},
+      {"id": 2, "name": "Tea", "description": "Black, Green, Herb.", "price": 30, "capture": "http://localhost:3001/assets/images/drinks/tea.jpeg"},
+      {"id": 3, "name": "Fruit Juice", "description": "Orange, Apple, Berries.", "price": 60, "capture": "http://localhost:3001/assets/images/drinks/juice.jpg"},
+      {"id": 4, "name": "Cola", "description": "Coca-Cola, Pepsi, Mirinda.", "price": 60, "capture": "http://localhost:3001/assets/images/drinks/cola.jpg"}
+    ]
+  }
+  
+
+}

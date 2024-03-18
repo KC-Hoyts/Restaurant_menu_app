@@ -1,0 +1,78 @@
+@font-face {
+  font-family: DaysSansBlack;
+  src: url('fonts/Days Sans Black.otf');
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  /* background-color: black; */
+  /* position: relative; */
+  padding: 0px;
+  margin: 0px;
+  
+  text-align: center;
+  /* justify-content: start; */
+  align-items: center;
+  /* overflow: hidden; */
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-text{
+  display: flex;
+  position: relative;
+  width: fit-content;
+  color: black;
+  font-size: 500%;
+  padding: 0px;
+  top: 10px;
+  margin: 2% 0px 5%;
+  font-family: DaysSansBlack;
+  letter-spacing: 50px;
+  padding: 0px 0px 0px 40px;
+  
+  text-shadow: 2px 2px 35px white;
+}
+
+.button-container{
+  box-shadow: white 3px 0px 7px 1px;
+  position: sticky;
+  border-radius: 10px 10px 10px 10px;
+  align-self: start;
+  left: 0px;
+  top: 30px;
+  width: fit-content;
+  height: fit-content;
+  > a {
+    position: relative;
+    left: 0px;
+    width: 100%;
+  }
+}
+
+.back-button {
+  cursor: pointer;
+  padding: 3px 14px;
+  background:  #161616;
+  border-color: rgba(255, 255, 255, 0.027451) #FF8C39 rgba(255, 255, 255, 0.027451) rgba(255, 255, 255, 0.027451);
+  border-style: solid;
+  border-width: 1px 4px 1px 1px;
+  
+  color: gray;
+  width:100px;
+  font-family: DaysSansBlack;
+  border-radius: 0px 8px 8px 0px;
+  font-size: 13px;
+  letter-spacing: 4px;
+  line-height:50px;
+  position: relative;
+  left: 0px;
+  
+}
+
+
